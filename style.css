@@ -1,18 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-    /* font style  */
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  /* font style  */
+  font-family: "Poppins", sans-serif;
 }
-.custom-button{
-    background-color:#ffffff;
-    border-radius: 5px;
-    width: 168px;
-    height: 44px;
-    color: #3F87F5;
-    font-weight: bold;
+.custom-button {
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #3f87f5;
+  font-weight: bold;
+  padding: 10px 40px;
+  border: 1px solid;
 }
-.custom-button:hover{
-    color: #ffffff;
-    background-color:rgb(44, 44, 70);
-    border:1px solid white;
+.custom-button:hover {
+  color: #ffffff;
+  background-color: rgb(44, 44, 70);
+  border: 1px solid white;
+}
+.package-item {
+  list-style: none;
+}
+.package-header {
+  margin-bottom: 200px;
+}
+.package-item li {
+  margin-bottom: 10px;
+}
+.package-item li i {
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: rgba(82, 67, 194, 0.103693);
+  border-radius: 50%;
+}
+.package-item .active-card li i {
+  background-color: rgba(255, 255, 255, 0.103);
+}
+.active-card {
+  background-color: #3f87f5;
+  box-shadow: 0px 42px 34px;
+  color: rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+  transform: translateY(-80px);
 }
