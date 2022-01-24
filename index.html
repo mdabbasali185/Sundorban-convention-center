@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Sundorban-convention-center
+        Sundorban Convention Center
     </title>
     <script src="https://kit.fontawesome.com/91906d202a.js" crossorigin="anonymous"></script>
     <!-- bootstrap-css  -->
@@ -20,37 +20,46 @@
 <body>
     <header>
         <!-- navbar section  -->
-        <navbar>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <div>
-                        <a class="navbar-brand" href="#">Sundorban-convention-center</a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Subscribe</a>
-                            </li>
-                        </ul>
-                    </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="#">Sundorban C.C</a>
                 </div>
-            </nav>
-        </navbar>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <!-- toast  -->
+    <div class="toast align-items-center show fixed-top top-50 end-0 ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            <i class="fas me-2 fa-gift"></i> 20% off on next booking.
+         </div>
+          <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    <!-- carousel  -->
     <section>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -70,7 +79,9 @@
                             built-in discounts depending on the season and day of the week you choose for your special
                             day.
                         </p>
-                        <button class="btn border-0 custom-button">BOOK NOW</button>
+                        <a target="_blank" href="https://www.matrimonialsindia.com/"> <button
+                                class="btn border-0 custom-button">BOOK NOW</button></a>
+
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -80,7 +91,8 @@
                         <p>Our regular pricing varies based on location and venue style; however, we’ve included
                             built-in discounts depending on the season and day of the week you choose for your special
                             day.</p>
-                        <button class="btn border-0 custom-button">BOOK NOW</button>
+                        <a target="_blank" href="https://www.matrimonialsindia.com/"><button
+                                class="btn border-0 custom-button">BOOK NOW</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -90,7 +102,10 @@
                         <p>Our regular pricing varies based on location and venue style; however, we’ve included
                             built-in discounts depending on the season and day of the week you choose for your special
                             day.</p>
-                        <button class="btn border-0 custom-button">BOOK NOW</button>
+                        <a target="_blank" href="https://www.matrimonialsindia.com/"><button
+                                class="btn border-0 custom-button">BOOK
+                                NOW</button></a>
+
                     </div>
                 </div>
             </div>
@@ -120,13 +135,16 @@
                         A happy moment can last a lifetime if you remember to smile when you think of it.How short the
                         happy moments seem and how endless the sad ones.
                     </p>
-                    <button class="custom-button ms-2">Explore our album <i class="fas fa-arrow-right"></i></button>
+                    <a target="_blank" href="https://www.bridalextravaganza.com/"><button
+                            class="custom-button ms-2">Explore our album <i class="fas fa-arrow-right"></i></button></a>
+
 
 
                 </div>
             </div>
 
         </section>
+        <!-- package items  -->
 
         <section class="container packages py-5">
             <h1 class="fw-bold text-center mt-5 package-header">Our package</h1>
@@ -169,7 +187,7 @@
                     <button class="package-button">Choose plan</button>
 
                 </div>
-                <div class="col-lg-3 active-card text-white">
+                <div class="col-lg-3 active-card text-white position-relative">
                     <div class="py-5 px-3">
                         <h1 class="fw-bold">$800</h1>
                         <h2 class="fw-bold">Wedding plus</h2>
@@ -184,6 +202,10 @@
                                 <li><i class="fas me-2 fa-check"></i>premium Decoration</li>
                                 <li><i class="fas me-2 fa-check"></i>pay as plan</li>
                             </ul>
+                            <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger">
+                                hot
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
                         </div>
                     </div>
                     <button class="package-button-active">Choose plan</button>
@@ -228,7 +250,7 @@
                                     to work to reach your financial
                                     goal for the month and year.
                                 </p>
-                                <img src="images/person 1.png" alt="" class="rounded-circle mb-3">
+                                <img src="images/person1.png" alt="person-1" class="rounded-circle mb-3">
                                 <h4 class="card-title mb-3">Regina Miles</h4>
                                 <p>Banker</p>
                             </div>
@@ -246,7 +268,7 @@
                                     to work to reach your financial
                                     goal for the month and year.
                                 </p>
-                                <img src="images/person 2.png" alt="" class="rounded-circle mb-3">
+                                <img src="images/person2.png" alt="person-2" class="rounded-circle mb-3">
                                 <h4 class="card-title mb-3">Jone Drake</h4>
                                 <p>Banker</p>
                             </div>
@@ -264,7 +286,7 @@
                                     to work to reach your financial
                                     goal for the month and year.
                                 </p>
-                                <img src="images/person 3.png" alt="" class="rounded-circle mb-3">
+                                <img src="images/person3.png" alt="person-3" class="rounded-circle mb-3">
                                 <h4 class="card-title mb-3">Cret Yater</h4>
                                 <p>Banker</p>
                             </div>
@@ -357,9 +379,61 @@
             </div>
 
         </section>
+        <!-- contact & location  -->
+        <section class="p-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <h2 class="text-center mb-4">Contact Info</h2>
+                        <ul class="list-group list-group-flush lead">
+
+                            <li class="list-group-item">
+                                <span class="fw-bold">Main Location</span>
+                                50 main st Boston
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">Phone</span>
+                                01888888888
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">Email</span>
+                                mdabbas@gmail.com
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">Hot line</span>
+                                01900000000
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <img src="images/map.png" alt="map">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
-    <footer>
+    <footer class="footer-main container">
+        <div class="row">
+            <div class="col-lg-6">
+                <small>© 2020 bike. All rights reserved</small>
+
+            </div>
+            <div class="col-lg-6">
+                <h4>Get the App</h4>
+                <div>
+                    <a href="https://www.apple.com/uk/"><img src="images/app-store.png" alt="App-store"></a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://play.google.com/apps"><img src="images/play-store.png"
+                            alt="play-store"></a>
+                </div>
+            </div>
+
+        </div>
 
     </footer>
 
